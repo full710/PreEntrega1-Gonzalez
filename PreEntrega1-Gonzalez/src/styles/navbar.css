@@ -1,0 +1,74 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+.logoNavbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid orange;
+}
+
+.logoNavbar img{
+    width: 200px;
+    pointer-events: none;
+}
+.infoNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid orange;
+}
+.formNavbar, .ulNavbar, .cartNavbar{
+    width: 33.3%;
+}
+.ulNavbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.infoNavbar ul li{
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+}
+.infoNavbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.infoNavbar ul li:hover{
+    transform: scale(1.05);
+}
+.formNavbar{
+    display: flex;
+    justify-content: center;
+}
+.formNavbar form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    border-radius: 20px;
+
+}
+.formNavbar form input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.formNavbar form button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.formNavbar form button img{
+    width: 25px;
+    margin: 5px;
+}
+.cartNavbar{
+    display: flex;
+    justify-content: center;
+}
