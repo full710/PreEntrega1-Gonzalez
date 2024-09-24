@@ -67,6 +67,7 @@
 .formNavbar form button img{
     width: 25px;
     margin: 5px;
+    cursor: pointer;
 }
 .cartNavbar{
     display: flex;
