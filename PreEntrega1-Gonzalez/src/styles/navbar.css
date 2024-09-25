@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: "Montserrat", sans-serif;
 }
 .logoNavbar{
     width: 100%;
@@ -43,8 +42,11 @@
     transform: scale(1.05);
 }
 .formNavbar{
+    height: 40px;
     display: flex;
     justify-content: center;
+    margin: 4px;
+
 }
 .formNavbar form{
     display: flex;
@@ -72,4 +74,5 @@
 .cartNavbar{
     display: flex;
     justify-content: center;
+    height: 40px;
 }
